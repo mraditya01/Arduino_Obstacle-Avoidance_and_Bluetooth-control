@@ -6,7 +6,7 @@
 * [Module](#modules-used)
 
 ## General Info
-My project uses Arduino components from OSOYOO Model 3 V2.0 DIY Robot Car Kit. I made this car as a personal project to learn about Arduino. This obstacle avoiding machine uses an HC-SR04 sensor mounted on top of a servo to locate walls in a maze using echolocation. The Arduino, 2 DC motor, servo, and sensor are powered by a separate 9V battery. The car moves forward until it sees a wall that is less than 35cm away. If this condition is met, the car backs up and the servo rotates 90 degrees to the left for the sensor to scan how far away the left wall is. The servo then rotates 180 degrees to the right to scan the distance of the right wall. If the distance of the left wall is more than the right, the car will turn 90 degrees to the left, and vice versa.
+My project uses Arduino components from OSOYOO Model 3 V2.0 DIY Robot Car Kit. I made this car as a personal project to learn about Arduino. This obstacle avoiding machine uses an HC-SR04 sensor mounted on top of a servo to locate walls in a maze using echolocation. The Arduino, 2 DC motor, servo, and sensor are powered by a separate 9V battery. The car moves forward until it sees a wall that is less than 12cm away. If this condition is met, the car backs up and the servo rotates 90 degrees to the left for the sensor to scan how far away the left wall is. The servo then rotates 180 degrees to the right to scan the distance of the right wall. If the distance of the left wall is more than the right, the car will turn 90 degrees to the left, and vice versa.
 
 ## Library
 - NewPing
