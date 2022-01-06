@@ -1,4 +1,4 @@
-# Arduino_Obstacle-Avoidance_and_Bluetooth-control
+# Arduino_Obstacle Avoidance_and_Bluetooth-control
 
 ## Table of contents
 * [General info](#general-info)
